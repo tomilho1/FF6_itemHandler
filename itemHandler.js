@@ -106,5 +106,5 @@ class ItemHandler {
 
 const itemHandler = new ItemHandler(__dirname + '/ff3.smc')
 
-sasaEditor.moveItem(250, 0)
-sasaEditor.saveAs(__dirname + '/newff3.smc')
+itemHandler.moveItem(250, 0)
+itemHandler.saveAs(__dirname + '/newff3.smc')
